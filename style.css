@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eee;
+    font-family: system-ui;
+ 
+
+    background: linear-gradient(to bottom right, rgba(63, 244, 39, 1.0), rgba(86, 244, 186, 1.0));
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+  text-align:center;
+  font-size:7rem;
+  font-weight: 700;
+  color:antiquewhite;
+  box-shadow: 0px 0px 10px #000 ;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 0 0;
+}
+form{
+    width: 500px;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0px 0px 10px #000 ;
+    border-radius: 10px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+}
+input{
+    padding: 10px 0 ;
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+   
+    background-color: transparent;
+    /* outline: none; */
+}
+
+.form-control label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
+.submit{
+    padding:8px 20px;
+    background-color:green;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color:rgb(7, 253, 126);
+    color:rgb(142, 221, 142);
+}
+.notes{
+    width: 100%;
+    display: flex;
+    padding: 3rem 2rem 2rem 2rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+.card{
+    background: #fff;
+    padding: 1rem 1.5rem 1rem;
+    width: 32rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin: 1rem 2rem;
+    border:5px solid rgb(43, 128, 0);
+    box-shadow: 0px 0px 10px #000 ;
+}
+.card h2{
+    font-size: 2.2rem;
+    padding-bottom: 7px;
+    position: relative;
+    display: inline;
+    color:rgb(144, 0, 255)
+   
+}
+.card p{
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding: 1rem 0;
+}
+
+.del{
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background:rgb(134, 224, 70);
+    color: rgb(121, 105, 105);
+    font-weight: 700;
+}
+.del:hover{
+    background: red;
+    transition: all 0.4s;
+    color: rgb(231, 208, 208);
+}
